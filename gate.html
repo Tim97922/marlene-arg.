@@ -1,0 +1,9 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><title>Der zweite Eintrag</title>
+<style>body{background:#0e1012;color:#ddd;font:18px Georgia,serif;max-width:720px;margin:80px auto;padding:25px}.box{border:1px solid #555;padding:28px}input{background:#17191c;color:#fff;border:1px solid #777;padding:10px;font-size:18px}button{padding:10px 18px}</style></head>
+<body><div class="box"><h1>DER ZWEITE EINTRAG</h1>
+<p>Du hast genug gesammelt. Aber noch fehlt die eine Zahl, die aus allen Spuren spricht.</p>
+<p>Wenn du überzeugt bist, gib nur zwei Ziffern ein.</p>
+<input id="x" maxlength="2" placeholder="__"> <button onclick="go()">prüfen</button>
+<p id="m"></p></div><script>
+function go(){let v=document.getElementById('x').value;if(v==='02'){location.href='final.html'}else{document.getElementById('m').textContent='Nein. Die Akte schweigt.'}}
+</script></body></html>
